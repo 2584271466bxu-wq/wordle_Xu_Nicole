@@ -10,6 +10,12 @@ readme = "README.md"
 python = "^3.12"
 
 
+[tool.poetry.group.dev.dependencies]
+sphinx = "^8.2.3"
+myst-parser = "^4.0.1"
+furo = "^2025.9.25"
+sphinx-autodoc-typehints = "^3.5.2"
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
